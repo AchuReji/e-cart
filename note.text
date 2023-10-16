@@ -1,0 +1,26 @@
+e commerce
+----------
+
+
+* lazy loading method
+
+
+*lazy load module-all component inside this module are lazy load components
+
+*lazy load -- admin and user
+
+*Create module commmad
+
+ng g module products --route products --module app.
+
+
+admin
+
+home
+
+
+install db server
+npm i --save json-server
+
+
+run server- npx json-server --watch db.json --port 3000

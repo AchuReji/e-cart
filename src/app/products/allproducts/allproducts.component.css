@@ -1,0 +1,27 @@
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS for the individual buttons */
+.button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 12px;
+}
+
+.button img {
+    width: 71px; /* Adjust the image size as needed */
+    height: 65px; /* Adjust the image size as needed */
+    display: block;
+    border-radius: 12px;
+}
+
+.button:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
